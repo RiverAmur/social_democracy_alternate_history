@@ -31,7 +31,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-Supreme Leader: [+ president +]
+<span style="color: red; font-weight: bold; font-size: 24px;">Supreme Leader</span>: [+ president +]
 
 Chancellor: [+ chancellor +] ([+ chancellor_party +])
 
