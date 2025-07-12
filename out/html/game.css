@@ -571,3 +571,29 @@ table {
     text-decoration: underline;
     text-decoration-style: dotted;
 }
+.letter {
+  font-weight: bold;
+  font-size: 2em; /* Adjust as needed */
+  border: 1px solid black;
+  padding: 2px 4px;
+  margin: 0 1px;
+  display: inline-block;
+  border-radius: 2px; /* Optional: slightly rounded corners */
+  /* Optional for better letter spacing */
+  letter-spacing: 2px;
+}
+
+.dark-blue {
+  color: #001f5b; /* A dark blue shade */
+  background: transparent;
+}
+
+.white {
+  color: #fff;
+  background: transparent;
+}
+
+.red {
+  color: #d32f2f; /* A strong red shade */
+  background: transparent;
+}
