@@ -33,7 +33,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 <span style="color: #145a32; font-weight: bold;">Supreme Leader</span>: [+ president +]
 
-Chancellor: [+ chancellor +] ([+ chancellor_party +])
+President: [+ chancellor +] ([+ chancellor_party +])
 
 Majles:
 
