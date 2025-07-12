@@ -35,13 +35,13 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 Chancellor: [+ chancellor +] ([+ chancellor_party +])
 
-Reichstag composition:
+Majles:
 
 # 1928: 30, 1930: 25, 1932: 22
-{!<span class="tooltip-text" title="Reformist Forces of the Islamic Republic">SPD</span>!}: [+ spd_r +]%
+{!<span class="tooltip-text" title="Reformist Forces of the Islamic Republic">Reformists</span>!}: [+ spd_r +]%
 [? if sapd_formed and sapd_r > 0: SAPD: [+ sapd_r +]% ?]
 # 1928: 15, 1930: 15, 1932: 
-{!<span class="tooltip-text" title="Center Party + Bavarian People's Party">Z + BVP</span>!}: [+ z_r +]%
+{!<span class="tooltip-text" title="Hardliners of the Islamic Republic">Principlists</span>!}: [+ z_r +]%
 # 1928: 10, 1930: 13
 {!<span class="tooltip-text" title="Communist Party of Germany">KPD</span>!}: [+ kpd_r +]%
 # 1928: 5, 1930: 4 (as DstP)
