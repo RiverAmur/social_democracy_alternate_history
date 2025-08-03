@@ -6,12 +6,12 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Vatanam: An Alternate History
+= Crimson Zeal: An Alternate History
 
 @start_menu_2
 
-- @start: Start game
-- @election_simulation: Election simulation
+- @start: Onward
+- @election_simulation: Election Simulation
 - @credits: Credits
 - @game_over.achievements
 
@@ -36,9 +36,9 @@ Q.old_demographics = 0;
 Q.use_decimals = 0;
 
 // party resources
-Q.resources = 2;
+Q.resources = 4;
 // party dues
-Q.dues = 2;
+Q.dues = 3;
 
 // the state of the party
 // overall dissent reduces every increase in party support.
@@ -48,10 +48,10 @@ Q.dissent_percent = 5;
 // factions
 Q.factions = ['left', 'center', 'labor', 'reformist', 'neorevisionist'];
 // should this be normalized to 100%?
-Q.left_strength = 15;
-Q.left_dissent = 20;
-Q.center_strength = 30;
-Q.center_dissent = 0;
+Q.left_strength = 25;
+Q.left_dissent = 10;
+Q.center_strength = 25;
+Q.center_dissent = 10;
 Q.labor_strength = 25;
 Q.labor_dissent = 5;
 Q.reformist_strength = 25;
@@ -329,9 +329,9 @@ Q.economic_records = [];
 
 
 // State of the government
-Q.president = "Khamenei";
+Q.president = "Lucien Durand (FSP)";
 // starting chancellor: Wilhelm Marx
-Q.chancellor = "Marx";
+Q.chancellor = "Alexandre Boutin (I)";
 Q.chancellor_party = 'Z';
 Q.spd_in_government = 0;
 Q.z_in_government = 1;
@@ -577,13 +577,13 @@ Q.stampfer_advisor = 0; // Friedrich Stampfer
 set-bg: img/map_2.jpg
 new-page: true
 
-> *"Such a general development cannot be attributed to the false tactics of any single party or to the mistakes of individual leaders. On the contrary, the conduct of individual leaders is determined largely by the sentiments of the people as a whole. It would be erroneous, however, to regard the sentiments of the moment as reflecting the natural make-up and character of the people. They are merely the consequence of the special circumstances which have brought about this profound degradation of the entire nation."*
+> *"The people's revolution that shook France in 1917 was a movement based on the desire for finally breathe..."*
 
- - Karl Kautsky, *Hitlerism and Social Democracy*, 1934
+ - Lucien Durand, *When the People Awoke*, 1926
 
-This is a game of alternate history. While historical accuracy is a major concern, keep in mind that this is a *game*, and that any divergence from actual events will necessarily have to involve some element of make-believe. Nevertheless, please let the author know if there are any glaring mistakes.
+This is a game of alternate history.
 
-For more information on the politics and government of the German Republic, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
+For more information on the politics and government of the French Socialist Commune, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
 
 - @1928_easy: Begin (easy difficulty)
 - @1928_main: Begin (normal difficulty)
@@ -625,8 +625,8 @@ go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
 = 1928
 
-It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
+It is a bright time for the proletarian struggle. After a period of the greatest... In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
 
-Now, the task of Social Democracy is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
+Now, the task of Socialism is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
 
 
