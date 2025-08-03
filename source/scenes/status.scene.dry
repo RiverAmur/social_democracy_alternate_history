@@ -31,9 +31,9 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 = Government
 
-<span style="color: #145a32; font-weight: bold;">Supreme Leader</span>: [+ president +]
+<span style="color: #8B0000; font-weight: bold;">Premier</span>: [+ president +]
 
-Premier: [+ chancellor +] ([+ chancellor_party +])
+Central Governing Committee Chairman: [+ chancellor +] ([+ chancellor_party +])
 
 Supreme People's Assembly:
 
