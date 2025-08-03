@@ -33,7 +33,7 @@ Internal dissent: [+ dissent_percent : dissent +]
 
 <span style="color: #8B0000; font-weight: bold;">Premier</span>: [+ president +]
 
-Central Governing Committee Chairman: [+ chancellor +] ([+ chancellor_party +])
+Central Committee Chairman: [+ chancellor +] ([+ chancellor_party +])
 
 Supreme People's Assembly:
 
